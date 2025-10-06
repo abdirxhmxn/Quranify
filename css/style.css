@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background-image: url('../img/_\ \(1\).jpeg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+    /* keep it centered */
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+
+    background-size: contain;
+    /* fit image inside */
+    background-position: center;
+    background-color: black;
+    color: white;
+}
+
+main {
+    height: 480px;
+    width: 100%;
+    margin-top: 10.5%;
+    margin-left: 1.5%;
+    text-align: center;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div {
+    text-align: left;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    height: 100px;
+}
+
+div>div {
+    width: 33.33%;
+    height: 70px;
+}
+
+h1 {
+    margin-bottom: 0%;
+    margin-top: 0%;
+    width: 20%;
+}
+
+input {
+    width: 30px;
+    height: 30px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    padding-left: 3%;
+    border: none;
+    margin-bottom: 1%;
+}
+
+.input {
+    width: 100%;
+}
+
+button {
+    width: 52px;
+    height: 48px;
+    font-size: 2rem;
+    border-radius: 15px;
+    padding-left: 3%;
+}
+
+#play,
+#stop {
+    font-size: 4rem;
+    border-radius: 20px;
+    padding-left: 0.2%;
+}
+
+#stop {
+    font-size: 4rem;
+}
+
+h3,
+p {
+    width: 17%;
+    margin: 0.5% 2%;
+    font-size: 1.5rem;
+}
+
+.sound {
+    width: 100%;
+    text-align: center;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+}
+
+.search button {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+}
+
+.input #verse {
+    margin-left: 19px;
+}
+
+@media (max-width: 1350px) {
+    main {
+        margin-top: 16%;
+    }
+
+    div {
+        gap: 1em;
+    }
+
+    div>div {
+        font-size: 1.3rem;
+        display: flex;
+        gap: 1em;
+        margin-right: 1%;
+    }
+}
+
+@media (max-width: 1250px) {
+    main {
+        margin-top: 17%;
+    }
+}
