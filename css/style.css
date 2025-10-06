@@ -15,14 +15,12 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-
-    /* keep it centered */
+    /*used chat-GPT to figure out how to keep background image completely visible*/
     margin: 0;
     height: 100vh;
     width: 100vw;
 
     background-size: contain;
-    /* fit image inside */
     background-position: center;
     background-color: black;
     color: white;
