@@ -12,7 +12,7 @@
 <body>
     <main>
         <h1>Quranify</h1>
-        <div>
+        <div class="top">
             <div>
                 <label for="surah">Chapter Number:</label>
                 <input type="text" id="surah" placeholder="Enter a Chapter Number">
@@ -25,14 +25,17 @@
             <div class="search">
                 <button>Search</button>
             </div>
-            
+
+            <div class="quran">
+                <h3></h3>
+                <h3 id="ayah"></h3>
+
+                <audio src=""></audio>
+                <p></p>
+            </div>
         </div>
 
-        <h3></h3>
-        <h3 id="ayah"></h3>
 
-        <audio src=""></audio>
-        <p></p>
         <div class="sound">
             <button id="play"><i class="fa-solid fa-circle-play"></i> </button>
             <button id="stop"><i class="fa-solid fa-pause"></i> </button>
