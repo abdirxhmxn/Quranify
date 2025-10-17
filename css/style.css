@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
 }
-@media (min-width: 1441px) {
+
     html {
         font-size: 62.5%;
     }
@@ -124,7 +124,7 @@
         color: black;
         font-size: 1rem;
     }
-}
+
 
 @media (max-width: 1440px) {
     html {
