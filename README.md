@@ -69,9 +69,7 @@ To combine the power of **two APIs** — one for Arabic recitation and another f
 
 ## 🌐 **Live Demo**
 
-> 🔗 [Quranify on GitHub Pages](https://abdirxhmxn.github.io/quranify)
-> *(Replace link if your Pages URL is different)*
-
+> 🔗 [Quranify on GitHub Pages](https://abdirxhmxn.github.io/Quranify/)
 ---
 
 ## 🧭 **Future Enhancements**
